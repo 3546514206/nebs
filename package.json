@@ -1,12 +1,15 @@
 {
-  "name": "neb",
+  "name": "nebs",
   "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
+  "description": "Node wEB Server。用node写一个web服务器，从解析http协议开始写",
+  "main": "boot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node boot.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "杨海波<3546514206@qq.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mysql": "^2.18.1"
+  }
 }
