@@ -4,7 +4,8 @@
   "description": "Node wEB Server。用node写一个web服务器，从解析http协议开始写",
   "main": "boot.js",
   "scripts": {
-    "start": "node boot.js"
+    "start": "node boot.js",
+    "test": "node test.js"
   },
   "keywords": [],
   "author": "杨海波<3546514206@qq.com>",

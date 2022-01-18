@@ -1,7 +1,6 @@
 const config = require("./constant");
 const mysql = require('mysql');
-
-const mysqlConnection = mysql.createConnection({
+const mysqlUtil = mysql.createConnection({
     host: config.mysqlHost,
     port: config.mysqlPort,
     user: config.mysqlUser,
@@ -11,5 +10,5 @@ const mysqlConnection = mysql.createConnection({
 
 
 module.exports = {
-    mysqlConnection
+    mysqlUtil
 };
